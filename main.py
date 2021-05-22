@@ -49,7 +49,7 @@ import streamlit as st
 from PIL import ImageDraw
 from PIL import ImageFont
 
-st.title('エッチ度確認アプリ')
+st.title('エッチ度確認スカウター')
 
 uploaded_file = st.file_uploader('Choose an image...', type=['jpg', 'png'])
 if uploaded_file is not None:
