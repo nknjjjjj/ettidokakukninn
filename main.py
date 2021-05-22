@@ -51,7 +51,7 @@ from PIL import ImageFont
 
 st.title('エッチ度確認スカウター')
 
-uploaded_file = st.file_uploader('Choose an image...', type=['jpg', 'png'])
+uploaded_file = st.file_uploader('エッチ度を確認したい画像をアップロードしてください。', type=['jpg', 'png'])
 if uploaded_file is not None:
     img = Image.open(uploaded_file)
     img_path = f'img/{uploaded_file.name}'
